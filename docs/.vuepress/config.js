@@ -6,9 +6,7 @@ module.exports = ({ isProd }) => ({
       selector: '.content img:not(.no-medium-zoom)',
     }],
     ['@vuepress/back-to-top'],
-    ['clean-urls', {
-      normalSuffix: '',
-    }],
+    ['clean-urls'],
     ['container', {
       type: 'right',
       defaultTitle: '',

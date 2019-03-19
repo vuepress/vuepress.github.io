@@ -1,6 +1,7 @@
 <template>
   <a
     :href="`https://www.npmjs.com/package/${pkg}`"
+    :title="pkg"
     target="_blank"
     rel="noopener noreferrer"
   >
