@@ -6,11 +6,11 @@
 
 ### [vuepress-plugin-clean-urls](./plugins/clean-urls)
 
-`vuepress-plugin-container` 是一个用于注册 markdown 容器的 VuePress 插件。
-
-### [vuepress-plugin-container](./plugins/mathjax)
-
 `vuepress-plugin-clean-urls` 是一个支持简洁链接的 VuePress 插件。
+
+### [vuepress-plugin-container](./plugins/container)
+
+`vuepress-plugin-container` 是一个用于注册 markdown 容器的 VuePress 插件。
 
 ### [vuepress-plugin-dehydrate](./plugins/dehydrate)
 
