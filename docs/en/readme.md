@@ -8,7 +8,7 @@ Community supported ecosystem for VuePress.
 
 `vuepress-plugin-clean-urls` is a plugin that provides support for clean urls.
 
-### [vuepress-plugin-container](./plugins/mathjax)
+### [vuepress-plugin-container](./plugins/container)
 
 `vuepress-plugin-container` is a VuePress plugin that registers markdown containers.
 
