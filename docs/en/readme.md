@@ -4,7 +4,7 @@ Community supported ecosystem for VuePress.
 
 ## Plugins
 
-| 名称 | 版本 | 介绍 |
+| Name | Version | Description |
 |:-:|:-:|:-:|
 | [plugin-clean-urls](./plugins/clean-urls) | <NpmLink pkg="vuepress-plugin-clean-urls"/> | :droplet: Use clean urls in VuePress. |
 | [plugin-container](./plugins/container) | <NpmLink pkg="vuepress-plugin-container"/> | :package: Use markdown containers in VuePress. |
