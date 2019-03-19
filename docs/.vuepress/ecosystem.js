@@ -3,6 +3,7 @@ const ecosystem = {
     'container',
     'clean-urls',
     'dehydrate',
+    'git-log',
     'mathjax',
     'migrate',
     // 'nprogress',

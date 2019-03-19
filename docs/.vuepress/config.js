@@ -2,8 +2,13 @@ const ecosystem = require('./ecosystem')
 
 module.exports = ({ isProd }) => ({
   plugins: [
-    '@vuepress/medium-zoom',
-    '@vuepress/back-to-top',
+    ['@vuepress/medium-zoom', {
+      selector: '.content img:not(.no-medium-zoom)',
+    }],
+    ['@vuepress/back-to-top'],
+    ['clean-urls', {
+      normalSuffix: '',
+    }],
     ['container', {
       type: 'right',
       defaultTitle: '',
@@ -13,6 +18,7 @@ module.exports = ({ isProd }) => ({
       before: info => `<div class="theorem"><p class="title">${info}</p>`,
       after: '</div>',
     }],
+    ['git-log'],
     ['mathjax', {
       macros: {
         '\\Z': '\\mathbb{Z}',

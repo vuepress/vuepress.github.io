@@ -4,26 +4,12 @@
 
 ## 插件
 
-### [vuepress-plugin-clean-urls](./plugins/clean-urls)
-
-`vuepress-plugin-clean-urls` 是一个支持简洁链接的 VuePress 插件。
-
-### [vuepress-plugin-container](./plugins/container)
-
-`vuepress-plugin-container` 是一个用于注册 markdown 容器的 VuePress 插件。
-
-### [vuepress-plugin-dehydrate](./plugins/dehydrate)
-
-`vuepress-plugin-dehydrate` 是一个用于修改生成的 HTML 文件的 VuePress 插件。
-
-### [vuepress-plugin-mathjax](./plugins/mathjax)
-
-`vuepress-plugin-mathjax` 是一个在 markdown 中支持 TeX 语法的 VuePress 插件。
-
-### [vuepress-plugin-migrate](./plugins/migrate)
-
-`vuepress-plugin-migrate` 是一个用于从其他网站迁移到 VuePress 的插件。
-
-### [vuepress-plugin-serve](./plugins/serve)
-
-`vuepress-plugin-serve` 是一个在本地构建静态服务器的 VuePress 插件。
+| 名称 | 版本 | 介绍 |
+|:-:|:-:|:-:|
+| [plugin-clean-urls](./plugins/clean-urls) | <NpmLink pkg="vuepress-plugin-clean-urls"/> | :droplet: 在 VuePress 中使用简洁链接 |
+| [plugin-container](./plugins/container) | <NpmLink pkg="vuepress-plugin-container"/> | :package: 在 VuePress 中使用 markdown 容器 |
+| [plugin-dehydrate](./plugins/dehydrate) | <NpmLink pkg="vuepress-plugin-dehydrate"/> | :fire: 修改 VuePress 生成的 HTML 文件 |
+| [plugin-git-log](./plugins/git-log) | <NpmLink pkg="vuepress-plugin-git-log"/> | :floppy_disk: 在 VuePress 中整合 git 日志 |
+| [plugin-mathjax](./plugins/mathjax) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: 在 VuePress 中使用 TeX 语法 |
+| [plugin-migrate](./plugins/migrate) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: 从其他网站迁移到 VuePress |
+| [plugin-serve](./plugins/serve) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: 在本地构建静态 VuePress 服务器 |
