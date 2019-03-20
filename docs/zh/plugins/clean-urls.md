@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-clean-urls
+# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-plugin-clean-urls"/>
 
 `vuepress-plugin-clean-urls` 是一个支持简洁链接的 VuePress 插件。
 

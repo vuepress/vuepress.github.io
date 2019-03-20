@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-dehydrate
+# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-plugin-dehydrate"/>
 
 `vuepress-plugin-dehydrate` 是一个用于修改生成的 HTML 文件的 VuePress 插件。
 

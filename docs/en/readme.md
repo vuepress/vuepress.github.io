@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # VuePress Community
 
 Community supported ecosystem for VuePress.

@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-migrate
+# vuepress-plugin-migrate <GitHubLink repo="vuepress/vuepress-plugin-migrate"/>
 
 `vuepress-plugin-migrate` 是一个用于从其他网站迁移到 VuePress 的插件。
 

@@ -4,7 +4,7 @@ mathjax:
   presets: \def\lr#1#2#3{\left#1#2\right#3}
 ---
 
-# vuepress-plugin-mathjax
+# vuepress-plugin-mathjax <GitHubLink repo="vuepress/vuepress-plugin-mathjax"/>
 
 `vuepress-plugin-mathjax` is a VuePress plugin which supports TeX syntax in markdown files.
 

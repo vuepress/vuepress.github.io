@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-git-log
+# vuepress-plugin-git-log <GitHubLink repo="vuepress/vuepress-plugin-git-log"/>
 
 `vuepress-plugin-git-log` 是一个在页面信息中集成 git 日志的 VuePress 插件。
 

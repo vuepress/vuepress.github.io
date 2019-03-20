@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-container
+# vuepress-plugin-container <GitHubLink repo="vuepress/vuepress-plugin-container"/>
 
 `vuepress-plugin-container` is a VuePress plugin that registers markdown containers.
 

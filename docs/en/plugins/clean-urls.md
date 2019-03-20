@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-clean-urls
+# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-plugin-clean-urls"/>
 
 `vuepress-plugin-clean-urls` is a plugin that provides support for clean urls.
 

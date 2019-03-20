@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # VuePress 社区
 
 社区维护的 VuePress 生态系统。

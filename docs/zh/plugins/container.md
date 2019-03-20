@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-container
+# vuepress-plugin-container <GitHubLink repo="vuepress/vuepress-plugin-container"/>
 
 `vuepress-plugin-container` 是一个用于注册 markdown 容器的 VuePress 插件。
 

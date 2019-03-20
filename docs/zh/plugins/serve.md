@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-serve
+# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-plugin-serve"/>
 
 `vuepress-plugin-serve` 是一个在本地构建静态服务器的 VuePress 插件。
 

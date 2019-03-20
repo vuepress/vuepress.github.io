@@ -23,11 +23,11 @@ export default {
 <style lang="stylus">
 
 .github-link
-  width 1.6rem
-  height 1.6rem
+  width 1em
+  height 1em
   text-decoration none
   display inline-block
-  vertical-align bottom
+  vertical-align -.1em
   margin-left 0.6rem
   
   path

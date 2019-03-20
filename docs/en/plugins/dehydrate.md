@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-dehydrate
+# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-plugin-dehydrate"/>
 
 `vuepress-plugin-dehydrate` is a VuePress plugin to dehydrate generated HTML files.
 

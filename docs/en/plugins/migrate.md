@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-migrate
+# vuepress-plugin-migrate <GitHubLink repo="vuepress/vuepress-plugin-migrate"/>
 
 `vuepress-plugin-migrate` is a VuePress plugin which migrates a website to VuePress.
 

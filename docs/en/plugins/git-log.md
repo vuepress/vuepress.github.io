@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-git-log
+# vuepress-plugin-git-log <GitHubLink repo="vuepress/vuepress-plugin-git-log"/>
 
 `vuepress-plugin-git-log` is a plugin that integrates git logs into your page.
 

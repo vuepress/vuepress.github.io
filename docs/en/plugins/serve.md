@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# Vuepress-plugin-serve
+# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-plugin-serve"/>
 
 `vuepress-plugin-serve` is a VuePress plugin which serves generated files.
 
