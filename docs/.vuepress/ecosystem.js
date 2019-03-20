@@ -6,7 +6,7 @@ const ecosystem = {
     'git-log',
     'mathjax',
     'migrate',
-    // 'nprogress',
+    'nprogress',
     'serve',
     // 'smooth-scroll',
   ],

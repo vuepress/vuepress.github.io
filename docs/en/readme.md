@@ -16,4 +16,5 @@ Community supported ecosystem for VuePress.
 | [git-log](./plugins/git-log) | <NpmLink pkg="vuepress-plugin-git-log"/> | :floppy_disk: Integrate git logs into VuePress. |
 | [mathjax](./plugins/mathjax) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: Use TeX syntax in VuePress. |
 | [migrate](./plugins/migrate) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: Migrate another website to VuePress. |
+| [nprogress](./plugins/nprogress) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: Show progress bar in VuePress. |
 | [serve](./plugins/serve) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: Serve generated files in VuePress. |
