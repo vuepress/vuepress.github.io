@@ -7,6 +7,7 @@ const ecosystem = {
     'mathjax',
     'migrate',
     'nprogress',
+    'redirect',
     'serve',
     // 'smooth-scroll',
   ],

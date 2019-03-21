@@ -17,4 +17,5 @@ sidebar: false
 | [mathjax](./plugins/mathjax.md) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: 在 VuePress 中使用 TeX 语法 |
 | [migrate](./plugins/migrate.md) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: 从其他网站迁移到 VuePress |
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: 在 VuePress 中显示页面进度条 |
+| [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: 在 VuePress 中处理重定向 |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: 在本地构建静态 VuePress 服务器 |

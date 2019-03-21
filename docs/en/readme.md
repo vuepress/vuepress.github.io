@@ -17,4 +17,5 @@ Community supported ecosystem for VuePress.
 | [mathjax](./plugins/mathjax.md) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: Use TeX syntax in VuePress. |
 | [migrate](./plugins/migrate.md) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: Migrate another website to VuePress. |
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: Show progress bar in VuePress. |
+| [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: Handle redirections in VuePress. |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: Serve generated files in VuePress. |
