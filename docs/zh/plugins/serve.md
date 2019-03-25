@@ -67,11 +67,15 @@ module.exports = {
 
 ### --host `<host>`
 
-参见[host](#host)。
+参见 [host](#host)。
 
 ### --port `<port>`
 
-参见[port](#port)。
+参见 [port](#port)。
+
+::: tip
+VuePress 内置的命令行选项，如 `--dest <dest>`, `--cache [cache]`, `--no-cache`，也都是支持的。
+:::
 
 ## 配置
 
@@ -85,14 +89,14 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 ### host
 
 - **类型:** `string`
-- **默认值:** `'localhost'`
+- **默认值:** `siteConfig.host || 'localhost'`
 
 指定服务器的主机名。
 
 ### port
 
 - **类型:** `number`
-- **默认值:** `8080`
+- **默认值:** `siteConfig.port || 8080`
 
 指定服务器监听的端口。
 

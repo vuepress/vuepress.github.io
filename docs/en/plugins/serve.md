@@ -73,6 +73,10 @@ See [host](#host).
 
 See [port](#port).
 
+::: tip
+VuePress built-in command line options (such as `--dest <dest>`, `--cache [cache]`, `--no-cache`) are also supported.
+:::
+
 ## Configuration
 
 ### commandName
@@ -85,14 +89,14 @@ Vuepress-plugin-serve will add a vuepress command. This option can be used to sp
 ### host
 
 - **type:** `string`
-- **default:** `'localhost'`
+- **default:** `siteConfig.host || 'localhost'`
 
 Specify the host to use for the server.
 
 ### port
 
 - **type:** `number`
-- **default:** `8080`
+- **default:** `siteConfig.port || 8080`
 
 Specify the port to use for the server.
 
