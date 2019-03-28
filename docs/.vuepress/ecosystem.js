@@ -6,6 +6,7 @@ const ecosystem = {
     'git-log',
     'mathjax',
     'migrate',
+    'named-chunks',
     'nprogress',
     'redirect',
     'serve',
