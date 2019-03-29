@@ -101,31 +101,24 @@ From [维基百科](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5
 
 ### defaultTitle
 
-- **类型:** `string`
+- **类型:** `string | Record<string, string>`
 - **默认值:** `type` 的大写形式
 
-容器的默认标题。如果没有提供标题，则会使用 `defaultTitle` 作为容器的标题。
-
-### localeTitle
-
-- **类型:** `object`
-- **默认值:** `{}`
-
-容器在不同地区下的标题。它们会在使用对应语言时覆盖 `defaultTitle`。
+容器的默认标题。如果没有提供标题，则会使用 `defaultTitle` 作为容器的标题。如果提供的是一个对象，默认标题将会基于当前 `locale` 选取。
 
 ### before
 
 - **类型:** `string | Function`
 - **默认值:** `undefined`
 
-要插入在容器前的 HTML。如果设置为一个函数，将传入当前的 `info` 作为第一个参数。（在上面的例子中，`info` 的值为 `bar`。）如果设置了这个值，它将覆盖 `defaultTitle` 和 `localeTitle` 的效果。
+要插入在容器前的 HTML。如果设置为一个函数，将传入当前的 `info` 作为第一个参数。（在上面的例子中，`info` 的值为 `bar`。）如果设置了这个值，它将覆盖 `defaultTitle` 的效果。
 
 ### after
 
 - **类型:** `string | Function`
 - **默认值:** `undefined`
 
-要插入在容器后的 HTML。如果设置为一个函数，将传入当前的 `info` 作为第一个参数。（在上面的例子中，`info` 的值为 `bar`。）如果设置了这个值，它将覆盖 `defaultTitle` 和 `localeTitle` 的效果。
+要插入在容器后的 HTML。如果设置为一个函数，将传入当前的 `info` 作为第一个参数。（在上面的例子中，`info` 的值为 `bar`。）如果设置了这个值，它将覆盖 `defaultTitle` 的效果。
 
 ### validate
 
@@ -139,7 +132,7 @@ From [维基百科](https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5
 - **类型:** `Function`
 - **默认值:** `undefined`
 
-容器开头和结束 token 的渲染函数。如果设置了这个值，它将覆盖 `before`, `after`, `defaultTitle` 和 `localeTitle` 的效果。
+容器开头和结束 token 的渲染函数。如果设置了这个值，它将覆盖 `before`, `after` 和 `defaultTitle` 的效果。
 
 ### marker
 
