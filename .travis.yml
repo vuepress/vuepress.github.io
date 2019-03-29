@@ -11,8 +11,8 @@ node_js:
   - node
 
 before_deploy:
-  - npm run build
-  
+  - yarn build
+
 deploy:
   provider: pages
   github-token: $GITHUB_TOKEN

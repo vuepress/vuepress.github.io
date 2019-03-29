@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "serve": "vuepress serve docs"
+    "serve": "vuepress serve docs",
+    "test": "echo 'Error: no test specified'"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.44",
