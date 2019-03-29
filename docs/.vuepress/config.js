@@ -18,7 +18,7 @@ module.exports = ({ isProd }) => ({
       before: info => `<div class="theorem"><p class="title">${info}</p>`,
       after: '</div>',
     }],
-    [require('../../../vuepress-plugin-copyright'), {
+    ['copyright', {
       disable: true,
       authorName: {
         'zh-CN': ' VuePress Community ',
