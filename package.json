@@ -13,6 +13,7 @@
     "vuepress": "^1.0.0-alpha.44",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-container": "^1.1.0",
+    "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-git-log": "^1.0.0",
     "vuepress-plugin-mathjax": "^1.2.2",
     "vuepress-plugin-redirect": "^1.1.0",

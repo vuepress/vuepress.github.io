@@ -1,6 +1,7 @@
 const ecosystem = {
   plugins: [
     'container',
+    'copyright',
     'clean-urls',
     'dehydrate',
     'git-log',

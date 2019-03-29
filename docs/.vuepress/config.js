@@ -18,6 +18,13 @@ module.exports = ({ isProd }) => ({
       before: info => `<div class="theorem"><p class="title">${info}</p>`,
       after: '</div>',
     }],
+    [require('../../../vuepress-plugin-copyright'), {
+      disable: true,
+      authorName: {
+        'zh-CN': ' VuePress Community ',
+        'en-US': 'VuePress Community',
+      },
+    }],
     ['git-log'],
     ['mathjax', {
       macros: {
