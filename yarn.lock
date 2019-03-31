@@ -6974,10 +6974,10 @@ vuepress-plugin-clean-urls@^1.0.3:
   resolved "https://registry.yarnpkg.com/vuepress-plugin-clean-urls/-/vuepress-plugin-clean-urls-1.0.3.tgz#87ef2349d6d1f835dc2519abeb0cb99ccf1698a5"
   integrity sha512-fdsK2e+cTm8mVRm2S8TcnlijPZTX31v61sqUx+4Xiq+KqB05UQlpKI1lz1gte59L8VeDoOE0JjoGXpDFTFlqcQ==
 
-vuepress-plugin-container@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-1.1.2.tgz#3bcf10d335a657c7eb9938b1499d6a7c37625456"
-  integrity sha512-6gFANhB0UuCghHi6KpXZN3lNLg5yz8FWF/HD7Sd7VqndtecjWl29mSAN4cdUcK9zJMMB9xDpFKyi0zt+bo4DJg==
+vuepress-plugin-container@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.0.1.tgz#b20ef97dd91f137c8be119460927c5ffd64e0f77"
+  integrity sha512-SMlWJl0uZYkqAxD2RUZmIrANZWKgiZdM64K7WmdyHyQPYI+NUj3ugi5D+zDn62BoO9NfQTiskEIa2u619SRweA==
   dependencies:
     markdown-it-container "^2.0.0"
 
@@ -7002,10 +7002,10 @@ vuepress-plugin-git-log@^1.0.0:
   dependencies:
     cross-spawn "^6.0.5"
 
-vuepress-plugin-mathjax@^1.2.2:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-mathjax/-/vuepress-plugin-mathjax-1.2.3.tgz#e7e370899fac85821d900b7baf79f0d21d3788ec"
-  integrity sha512-50nfWNB36u5VUm0nDQczxU+F2X97DgAoxxlIVMOZYED5BAeetGik52tWzVvTZRHTpFhB8pCoE7zrX4IZ4vMFhA==
+vuepress-plugin-mathjax@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-mathjax/-/vuepress-plugin-mathjax-1.2.4.tgz#75272f39fad3fb9551950de17dd72352597204e1"
+  integrity sha512-rYNgJviODs0dyiARz0PCKkGnUiQubhZdo93I+ttY10BzCMDhuj9cLOEMquE1ktHzOQhLNsBiZ7RJo0UQw5YwOQ==
   dependencies:
     lru-cache "^5.1.1"
     mathjax3 "^3.0.0-beta.3"

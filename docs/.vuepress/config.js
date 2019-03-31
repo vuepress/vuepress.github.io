@@ -19,7 +19,7 @@ module.exports = ({ isProd }) => ({
       after: '</div>',
     }],
     ['copyright', {
-      disable: true,
+      disabled: true,
       authorName: {
         'zh-CN': ' VuePress Community ',
         'en-US': 'VuePress Community',
