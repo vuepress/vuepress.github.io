@@ -1,6 +1,6 @@
 const ecosystem = require('./ecosystem')
 
-module.exports = ({ isProd }) => ({
+module.exports = (context) => ({
   head: [
     ['link', { rel: 'icon', href: '/logo/600x600.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -82,7 +82,7 @@ module.exports = ({ isProd }) => ({
     },
   },
 
-  evergreen: !isProd,
+  evergreen: () => !context.isProd,
 })
 
 const getSidebar = (plugins, themes, others) => [{
