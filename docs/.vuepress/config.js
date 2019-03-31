@@ -1,6 +1,14 @@
 const ecosystem = require('./ecosystem')
 
 module.exports = ({ isProd }) => ({
+  head: [
+    ['link', { rel: 'icon', href: '/logo/600x600.png' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+  ],
+
   plugins: [
     ['@vuepress/medium-zoom', {
       selector: '.content img:not(.no-medium-zoom)',
