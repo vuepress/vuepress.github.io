@@ -14,7 +14,9 @@ const ecosystem = {
     // 'smooth-scroll',
   ],
   themes: [],
-  others: [],
+  tools: [
+    'mergeable',
+  ],
 }
 
 module.exports = ecosystem

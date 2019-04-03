@@ -21,3 +21,9 @@ Community supported ecosystem for VuePress.
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: Show progress bar in VuePress |
 | [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: Handle redirections in VuePress |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: Serve generated files in VuePress |
+
+## Tools
+
+| Name | Version | Description |
+|:-:|:-:|:- |
+| [vuepress-mergeable](./tools/mergeable.md) | <NpmLink pkg="vuepress-mergeable"/> | :crystal_ball: Customize how a VuePress plugin merges its options |

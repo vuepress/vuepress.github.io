@@ -77,16 +77,20 @@ module.exports = (context) => ({
       },
     },
     sidebar: {
-      '/en/': getSidebar('Plugins'),
-      '/zh/': getSidebar('插件'),
+      '/en/': getSidebar('Plugins', 'Themes', 'Tools'),
+      '/zh/': getSidebar('插件', '主题', '工具'),
     },
   },
 
   evergreen: () => !context.isProd,
 })
 
-const getSidebar = (plugins, themes, others) => [{
+const getSidebar = (plugins, themes, tools) => [{
   title: plugins,
-  collapsable: false,
+  collapsable: true,
   children: ecosystem.plugins.map(name => `plugins/${name}`),
+}, {
+  title: tools,
+  collapsable: true,
+  children: ecosystem.tools.map(name => `tools/${name}`),
 }]

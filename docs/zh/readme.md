@@ -21,3 +21,9 @@ sidebar: false
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: 在 VuePress 中显示页面进度条 |
 | [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: 在 VuePress 中处理重定向 |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: 在本地构建静态 VuePress 服务器 |
+
+## 工具
+
+| 名称 | 版本 | 介绍 |
+|:-:|:-:|:- |
+| [vuepress-mergeable](./tools/mergeable.md) | <NpmLink pkg="vuepress-mergeable"/> | :crystal_ball: 定制化 VuePress 插件选项合并的方式 |
