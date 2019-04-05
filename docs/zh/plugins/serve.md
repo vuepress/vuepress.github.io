@@ -127,3 +127,30 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 - **默认值:** `undefined`
 
 在服务器接受客户端信息之后执行。类似于 VuePress 的 [afterDevServer](https://v1.vuepress.vuejs.org/zh/plugin/option-api.html#afterdevserver) 选项。
+
+### chainWebpack
+
+- **type:** `(config: Config) => void`
+- **default:** `undefined`
+
+这个钩子会在服务器构建时调用。
+
+参见 [chainWebpack](https://v1.vuepress.vuejs.org/plugin/option-api.html#chainwebpack)。
+
+### define
+
+- **type:** `Record<string, string> | (() => Record<string, string>)`
+- **default:** `{}`
+
+这个钩子会在服务器构建时调用。
+
+参见 [define](https://v1.vuepress.vuejs.org/plugin/option-api.html#define)。
+
+### alias
+
+- **type:** `Record<string, string> | (() => Record<string, string>)`
+- **default:** `{}`
+
+这个钩子会在服务器构建时调用。
+
+参见 [alias](https://v1.vuepress.vuejs.org/plugin/option-api.html#alias)。

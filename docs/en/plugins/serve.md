@@ -127,3 +127,30 @@ Executed before the server accepts client information. Similar to VuePress's [be
 - **default:** `undefined`
 
 Executed after the server accepts client information. Similar to VuePress's [afterDevServer](https://v1.vuepress.vuejs.org/en/plugin/option-api.html#afterdevserver) option.
+
+### chainWebpack
+
+- **type:** `(config: Config) => void`
+- **default:** `undefined`
+
+This hook will be called when the server is being built.
+
+See [chainWebpack](https://v1.vuepress.vuejs.org/plugin/option-api.html#chainwebpack).
+
+### define
+
+- **type:** `Record<string, string> | (() => Record<string, string>)`
+- **default:** `{}`
+
+This hook will be called when the server is being built.
+
+See [define](https://v1.vuepress.vuejs.org/plugin/option-api.html#define).
+
+### alias
+
+- **type:** `Record<string, string> | (() => Record<string, string>)`
+- **default:** `{}`
+
+This hook will be called when the server is being built.
+
+See [alias](https://v1.vuepress.vuejs.org/plugin/option-api.html#alias).
