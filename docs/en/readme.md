@@ -16,6 +16,7 @@ Community supported ecosystem for VuePress.
 | [dehydrate](./plugins/dehydrate.md) | <NpmLink pkg="vuepress-plugin-dehydrate"/> | :fire: Dehydrate HTML files in VuePress |
 | [git-log](./plugins/git-log.md) | <NpmLink pkg="vuepress-plugin-git-log"/> | :floppy_disk: Integrate git logs into VuePress |
 | [mathjax](./plugins/mathjax.md) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: Use TeX syntax in VuePress |
+| [medium-zoom](./plugins/medium-zoom.md) | <NpmLink pkg="vuepress-plugin-medium-zoom"/> | :mag: Make images zoomable in VuePress (with medium-zoom) |
 | [migrate](./plugins/migrate.md) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: Migrate another website to VuePress |
 | [named-chunks](./plugins/named-chunks.md) | <NpmLink pkg="vuepress-plugin-named-chunks"/> | :name_badge: Generate named chunks in VuePress |
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: Show progress bar in VuePress |

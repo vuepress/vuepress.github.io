@@ -16,6 +16,7 @@ sidebar: false
 | [dehydrate](./plugins/dehydrate.md) | <NpmLink pkg="vuepress-plugin-dehydrate"/> | :fire: 修改 VuePress 生成的 HTML 文件 |
 | [git-log](./plugins/git-log.md) | <NpmLink pkg="vuepress-plugin-git-log"/> | :floppy_disk: 在 VuePress 中整合 git 日志 |
 | [mathjax](./plugins/mathjax.md) | <NpmLink pkg="vuepress-plugin-mathjax"/> | :page_with_curl: 在 VuePress 中使用 TeX 语法 |
+| [medium-zoom](./plugins/medium-zoom.md) | <NpmLink pkg="vuepress-plugin-medium-zoom"/> | :mag: 使 VuePress 中的图片支持缩放（使用 medium-zoom） |
 | [migrate](./plugins/migrate.md) | <NpmLink pkg="vuepress-plugin-migrate"/> | :paw_prints: 从其他网站迁移到 VuePress |
 | [named-chunks](./plugins/named-chunks.md) | <NpmLink pkg="vuepress-plugin-named-chunks"/> | :name_badge: 在 VuePress 中使用命名模块 |
 | [nprogress](./plugins/nprogress.md) | <NpmLink pkg="vuepress-plugin-nprogress"/> | :running: 在 VuePress 中显示页面进度条 |

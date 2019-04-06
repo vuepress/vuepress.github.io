@@ -6,6 +6,7 @@ const ecosystem = {
     'dehydrate',
     'git-log',
     'mathjax',
+    'medium-zoom',
     'migrate',
     'named-chunks',
     'nprogress',
