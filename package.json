@@ -1,17 +1,28 @@
 {
-  "name": "vuepress.github.io",
-  "version": "1.0.0",
   "private": true,
+  "name": "vuepress.github.io",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "vuepress serve docs",
-    "test": "echo 'Error: no test specified'"
+    "test": "echo 'Error: no test specified'",
+    "lint": "eslint --fix --ext .js,.vue ."
   },
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.46",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.46",
-    "vuepress": "^1.0.0-alpha.46",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.0",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-container": "^2.0.0",
     "vuepress-plugin-copyright": "^1.0.2",
@@ -19,5 +30,11 @@
     "vuepress-plugin-mathjax": "^1.2.4",
     "vuepress-plugin-redirect": "^1.1.0",
     "vuepress-plugin-serve": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-vuepress": "^0.0.2",
+    "husky": "^2.4.0",
+    "lint-staged": "^8.2.0"
   }
 }

@@ -9,14 +9,18 @@
       class="no-medium-zoom"
       :src="`https://img.shields.io/npm/v/${pkg}.svg?style=flat-square`"
       alt="npm"
-    />
+    >
   </a>
 </template>
 
 <script>
-
 export default {
-  props: ['pkg'],
+  props: {
+    pkg: {
+      type: String,
+      required: true,
+    },
+  },
 }
 
 </script>
