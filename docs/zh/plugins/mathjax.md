@@ -232,7 +232,7 @@ MathJax 的输出格式。
 ### showError <Badge text="vuepress 1.0.0-alpha.40+"/>
 
 - **类型**: `boolean`
-- **默认值**: `false`
+- **默认值**: `process.env.NODE_ENV === 'development'`
 
 当遇到编译错误时，是否要在控制台输出错误信息。
 
