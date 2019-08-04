@@ -62,6 +62,7 @@ module.exports = (context) => ({
     repo: 'vuepress/vuepress.github.io',
     editLinks: true,
     docsDir: 'docs',
+    docsBranch: 'docs',
     locales: {
       '/en/': {
         label: 'English',
