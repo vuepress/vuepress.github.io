@@ -41,7 +41,7 @@ module.exports = {
   plugins: [
     ['vuepress-plugin-medium-zoom', {
       // 支持点击缩放的图片元素的选择器
-      // 默认值： '.content img'
+      // 默认值： '.theme-default-content img'
       selector: '.my-wrapper .my-img',
 
       // 进入一个页面后，经过一定延迟后使页面中的图片支持缩放

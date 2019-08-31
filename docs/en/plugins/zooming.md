@@ -41,7 +41,7 @@ module.exports = {
   plugins: [
     ['vuepress-plugin-zooming', {
       // selector for images that you want to be zoomable
-      // default: '.content img'
+      // default: '.theme-default-content img'
       selector: '.my-wrapper .my-img',
 
       // make imgaes zoomable with delay after entering a page
