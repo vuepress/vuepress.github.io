@@ -14,6 +14,7 @@ const ecosystem = {
     'serve',
     // 'smooth-scroll',
     'zooming',
+    'helper-live2d',
   ],
   themes: [],
   tools: [

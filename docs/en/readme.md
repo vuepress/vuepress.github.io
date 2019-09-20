@@ -23,6 +23,7 @@ Community supported ecosystem for VuePress.
 | [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: Handle redirections in VuePress |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: Serve generated files in VuePress |
 | [zooming](./plugins/zooming.md) | <NpmLink pkg="vuepress-plugin-zooming"/> | :mag: Make images zoomable in VuePress (with zooming) |
+| [helper-live2d](./plugins/helper-live2d.md) | <NpmLink pkg="vuepress-plugin-helper-live2d"/> | :fire: Live2D plugin for VuePress. |
 
 ## Tools
 

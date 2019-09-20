@@ -43,6 +43,7 @@ module.exports = (context) => ({
     ['redirect', {
       locales: true,
     }],
+    ['vuepress-plugin-helper-live2d'],
   ],
 
   locales: {
@@ -62,6 +63,7 @@ module.exports = (context) => ({
     repo: 'vuepress/vuepress.github.io',
     editLinks: true,
     docsDir: 'docs',
+    docsBranch: 'docs',
     locales: {
       '/en/': {
         label: 'English',

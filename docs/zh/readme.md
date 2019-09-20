@@ -23,6 +23,7 @@ sidebar: false
 | [redirect](./plugins/redirect.md) | <NpmLink pkg="vuepress-plugin-redirect"/> | :traffic_light: 在 VuePress 中处理重定向 |
 | [serve](./plugins/serve.md) | <NpmLink pkg="vuepress-plugin-serve"/> | :key: 在本地构建静态 VuePress 服务器 |
 | [zooming](./plugins/zooming.md) | <NpmLink pkg="vuepress-plugin-zooming"/> | :mag: 使 VuePress 中的图片支持缩放（使用 zooming） |
+| [helper-live2d](./plugins/helper-live2d.md) | <NpmLink pkg="vuepress-plugin-helper-live2d"/> | :fire: VuePress集成Live2D看板娘 |
 
 ## 工具
 

@@ -27,6 +27,7 @@
     "vuepress-plugin-container": "^2.0.0",
     "vuepress-plugin-copyright": "^1.0.2",
     "vuepress-plugin-git-log": "^1.0.0",
+    "vuepress-plugin-helper-live2d": "^1.0.0",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-redirect": "^1.1.0",
     "vuepress-plugin-serve": "^1.0.1"
