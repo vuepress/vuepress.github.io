@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://v2.vuepress.vuejs.org/sitemap.xml
