@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"","description":"404 Not Found"}</script><meta property="og:url" content="https://vuepress.vuejs.org/404.html"><meta property="og:site_name" content="VuePress"><meta property="og:description" content="404 Not Found"><meta property="og:type" content="website"><meta property="og:locale" content="en-US"><link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="application-name" content="VuePress"><meta name="apple-mobile-web-app-title" content="VuePress"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#3eaf7c"><meta name="msapplication-TileColor" content="#3eaf7c"><meta name="theme-color" content="#3eaf7c"><title>VuePress</title><meta name="description" content="404 Not Found">
+    <link rel="preload" href="/assets/style-BodexH2g.css" as="style"><link rel="stylesheet" href="/assets/style-BodexH2g.css">
+    <link rel="modulepreload" href="/assets/app-Co8nLnwj.js"><link rel="modulepreload" href="/assets/404.html-Dc5KZGCw.js">
+    <link rel="prefetch" href="/assets/index.html-BfJ0OwFR.js" as="script"><link rel="prefetch" href="/assets/architecture.html-B1bkGmie.js" as="script"><link rel="prefetch" href="/assets/plugin.html-DkbLUhO8.js" as="script"><link rel="prefetch" href="/assets/theme.html-CoYgnUtr.js" as="script"><link rel="prefetch" href="/assets/assets.html-QXvhVf31.js" as="script"><link rel="prefetch" href="/assets/bundler.html-BBIxg_OA.js" as="script"><link rel="prefetch" href="/assets/configuration.html-bvAUGwM5.js" as="script"><link rel="prefetch" href="/assets/deployment.html-CZkd05W1.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-CFbr9Bex.js" as="script"><link rel="prefetch" href="/assets/i18n.html-C0o4G9Oo.js" as="script"><link rel="prefetch" href="/assets/introduction.html-CLBP2aRX.js" as="script"><link rel="prefetch" href="/assets/markdown.html-DyW3GBa6.js" as="script"><link rel="prefetch" href="/assets/migration.html-C_75iYMG.js" as="script"><link rel="prefetch" href="/assets/page.html-m-YY03Sh.js" as="script"><link rel="prefetch" href="/assets/plugin.html-wq2rUsXc.js" as="script"><link rel="prefetch" href="/assets/theme.html-XOBqKxgq.js" as="script"><link rel="prefetch" href="/assets/troubleshooting.html-CmcfO2Rt.js" as="script"><link rel="prefetch" href="/assets/cli.html-chN6i9hN.js" as="script"><link rel="prefetch" href="/assets/client-api.html-D8WKB2j-.js" as="script"><link rel="prefetch" href="/assets/components.html-DE-NS8We.js" as="script"><link rel="prefetch" href="/assets/config.html-CR9gIDzh.js" as="script"><link rel="prefetch" href="/assets/frontmatter.html-B1PeW3cJ.js" as="script"><link rel="prefetch" href="/assets/node-api.html-CXMYuRfD.js" as="script"><link rel="prefetch" href="/assets/plugin-api.html-CxaX7jxB.js" as="script"><link rel="prefetch" href="/assets/theme-api.html-C0fuxB10.js" as="script"><link rel="prefetch" href="/assets/index.html-Fc-_Mk3O.js" as="script"><link rel="prefetch" href="/assets/index.html-N6BG3MiI.js" as="script"><link rel="prefetch" href="/assets/adding-extra-pages.html-Bv1LqTtD.js" as="script"><link rel="prefetch" href="/assets/making-a-theme-extendable.html-C_fTpsb9.js" as="script"><link rel="prefetch" href="/assets/markdown-and-vue-sfc.html-BfF9oO3J.js" as="script"><link rel="prefetch" href="/assets/passing-data-to-client-code.html-TTOVo6lR.js" as="script"><link rel="prefetch" href="/assets/resolving-routes.html-DEtWhjir.js" as="script"><link rel="prefetch" href="/assets/usage-of-client-config.html-JhYBCdyu.js" as="script"><link rel="prefetch" href="/assets/vite.html-CCXnXzfk.js" as="script"><link rel="prefetch" href="/assets/webpack.html-QzTwNuGF.js" as="script"><link rel="prefetch" href="/assets/architecture.html-C3RGlvCU.js" as="script"><link rel="prefetch" href="/assets/plugin.html-BUV0kKhL.js" as="script"><link rel="prefetch" href="/assets/theme.html-BVXCsayW.js" as="script"><link rel="prefetch" href="/assets/assets.html-BVVCvGET.js" as="script"><link rel="prefetch" href="/assets/bundler.html-D3ng-GTK.js" as="script"><link rel="prefetch" href="/assets/configuration.html-C6Z0Q7p4.js" as="script"><link rel="prefetch" href="/assets/deployment.html-iEZ4hYVv.js" as="script"><link rel="prefetch" href="/assets/getting-started.html-C7POQ-AQ.js" as="script"><link rel="prefetch" href="/assets/i18n.html-CU3cBapG.js" as="script"><link rel="prefetch" href="/assets/introduction.html-CHyXBHyd.js" as="script"><link rel="prefetch" href="/assets/markdown.html-98euOuSx.js" as="script"><link rel="prefetch" href="/assets/migration.html-pwJ6Vcyf.js" as="script"><link rel="prefetch" href="/assets/page.html-HaqD5GLE.js" as="script"><link rel="prefetch" href="/assets/plugin.html-Dh9pcCp8.js" as="script"><link rel="prefetch" href="/assets/theme.html-7FOq1bjM.js" as="script"><link rel="prefetch" href="/assets/troubleshooting.html-CzY1DbmI.js" as="script"><link rel="prefetch" href="/assets/cli.html-BfbTl4EI.js" as="script"><link rel="prefetch" href="/assets/client-api.html-DXCcAaB4.js" as="script"><link rel="prefetch" href="/assets/components.html-on3L-yUn.js" as="script"><link rel="prefetch" href="/assets/config.html-DkJB_0dU.js" as="script"><link rel="prefetch" href="/assets/frontmatter.html-_OlS2TW9.js" as="script"><link rel="prefetch" href="/assets/node-api.html-B5Z1snTv.js" as="script"><link rel="prefetch" href="/assets/plugin-api.html-DnYOSprI.js" as="script"><link rel="prefetch" href="/assets/theme-api.html-DG2V4xRX.js" as="script"><link rel="prefetch" href="/assets/index.html-BivSdaWo.js" as="script"><link rel="prefetch" href="/assets/adding-extra-pages.html-ixUZhA_p.js" as="script"><link rel="prefetch" href="/assets/making-a-theme-extendable.html-CgFhkAAx.js" as="script"><link rel="prefetch" href="/assets/markdown-and-vue-sfc.html-DLK73ACs.js" as="script"><link rel="prefetch" href="/assets/passing-data-to-client-code.html-s9R_2uVQ.js" as="script"><link rel="prefetch" href="/assets/resolving-routes.html-DbGgRjPk.js" as="script"><link rel="prefetch" href="/assets/usage-of-client-config.html-nM5qzxMV.js" as="script"><link rel="prefetch" href="/assets/vite.html-ME2au2x0.js" as="script"><link rel="prefetch" href="/assets/webpack.html-Cc7dGlag.js" as="script"><link rel="prefetch" href="/assets/index-B-M8YVCw.js" as="script"><link rel="prefetch" href="/assets/NpmBadge-BvhQVNCA.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-1d649e31><main class="page" data-v-1d649e31><div vp-content data-v-1d649e31><h1 data-v-1d649e31>404</h1><blockquote data-v-1d649e31>Looks like we&#39;ve got some broken links.</blockquote><a class="route-link" href="/" data-v-1d649e31>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Co8nLnwj.js" defer></script>
+  </body>
+</html>
